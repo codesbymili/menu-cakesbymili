@@ -2,37 +2,96 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.logo {
+  width: 325px;
+  margin-top: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.menu {
+  width: 500px;
+  height: 600px;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.menu h3,
+.details h3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-size: 24px;
+}
+
+.details p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-size: 20px;
+}
+
+.items {
+  height: 500px;
+  overflow-y: scroll;
+}
+
+.item-card {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  height: 80px;
+  margin: 10px 20px 15px 20px;
+  /* background-color: rgb(216, 172, 172); */
+  gap: 20px;
+  padding: 10px 20px 10px 20px;
+  box-sizing: border-box;
+  justify-content: flex-start;
   align-items: center;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+.item-card:hover,
+.item-selected {
+  background-color: rgba(253, 196, 208, 0.7);
+  font-weight: bold;
+  color: #e5647f;
+}
+
+.cake-image {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.content {
+  margin-top: 35px;
+  display: flex;
+  flex-direction: row;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  gap: 50px;
 }
 
-.App-link {
-  color: #61dafb;
+.details {
+  width: 700px;
+  height: 600px;
+  padding: 50px;
+  box-sizing: border-box;
+  background-color: rgba(253, 196, 208, 0.7);
+  border-radius: 20px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.details img {
+  width: 200px;
+}
+
+.price {
+  margin-top: 25px;
+  font-size: 17px !important;
+}
+
+.description {
+  padding: 15px;
+  color: #e5647f;
+  margin: 0;
 }

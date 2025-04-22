@@ -14,7 +14,7 @@ export default function App() {
 function Header(){
   return(
     <div className='header'>
-      <img className='logo' src="/images/logo.png"/>
+      <img className='logo' src="images/logo.png"/>
     </div>
   );
 }

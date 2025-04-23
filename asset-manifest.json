@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/menu-cakesbymili/static/css/main.dac29413.css",
+    "main.css": "/menu-cakesbymili/static/css/main.46312fab.css",
     "main.js": "/menu-cakesbymili/static/js/main.e28080df.js",
     "static/media/cake.jpg": "/menu-cakesbymili/static/media/cake.f1eed5d454875720734d.jpg",
     "index.html": "/menu-cakesbymili/index.html",
-    "main.dac29413.css.map": "/menu-cakesbymili/static/css/main.dac29413.css.map",
+    "main.46312fab.css.map": "/menu-cakesbymili/static/css/main.46312fab.css.map",
     "main.e28080df.js.map": "/menu-cakesbymili/static/js/main.e28080df.js.map"
   },
   "entrypoints": [
-    "static/css/main.dac29413.css",
+    "static/css/main.46312fab.css",
     "static/js/main.e28080df.js"
   ]
 }

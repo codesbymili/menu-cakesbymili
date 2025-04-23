@@ -60,7 +60,6 @@ function Button({children}){
   return(
     <button className='button'>{children}</button>
   );
-
 }
 
 function Details({selectedItem, handleSelection}){
